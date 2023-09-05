@@ -21,10 +21,11 @@ public class J0905_01 {
 				break;//반복문을 중간에 종료할때
 			}else {
 				System.out.println("오답");
+				System.out.println("랜덤숫자"+random);
 		    }
 		}//for	
 	    //정답출력
-		System.out.println("랜덤숫자"+ random);
+	
 	
 
 
