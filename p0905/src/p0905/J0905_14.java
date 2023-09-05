@@ -9,11 +9,11 @@ public class J0905_14 {
 		// 1-100랜덤숫자를 생성해서 맞추는 푸로그램을 구현
 		Scanner scan = new Scanner(System.in);
 		int random = (int) (Math.random() * 100) + 1;
-		int i=0; //초기식
-		while (i<10) {
+		int i = 0; // 초기식
+		while (i < 10) {
 			System.out.println("숫자를 입력사에ㅛ요");
 			int input = scan.nextInt();
-			num[i]=input;
+			num[i] = input;
 			if (random == input) {
 				System.out.println("정답입니다");
 				break;
@@ -23,18 +23,18 @@ public class J0905_14 {
 			} else {
 				System.out.println("더 작은 수를 입력하세요");
 			}
-			if(i==90) {
-			i++;
-		} // while
-		System.out.println("랜덤숫자 :" + random);
+			if (i == 90) {
+				i++;
+			} // while
+			System.out.println("랜덤숫자 :" + random);
 
-		for(int j=0;j<i;j++) {
-			System.out.printf("%d",num[j]);
+			for (int j = 0; j < i; j++) {
+				System.out.printf("%d", num[j]);
+			}
+
+			// System.out.println(num);//주소값이 출력
+			// System.out.println(Arrays.toString(num));
+
 		}
-		
-		// System.out.println(num);//주소값이 출력
-		// System.out.println(Arrays.toString(num));
-
-	}
-
-}
+	}//main
+}//class
