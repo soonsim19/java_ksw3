@@ -23,11 +23,15 @@ public class J0905_14 {
 			} else {
 				System.out.println("더 작은 수를 입력하세요");
 			}
-			
+			if(i==90) {
 			i++;
 		} // while
 		System.out.println("랜덤숫자 :" + random);
 
+		for(int j=0;j<i;j++) {
+			System.out.printf("%d",num[j]);
+		}
+		
 		// System.out.println(num);//주소값이 출력
 		// System.out.println(Arrays.toString(num));
 
