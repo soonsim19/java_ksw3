@@ -26,7 +26,8 @@ public class J0905_15 {
 		    	break;
 		    }
 		    i++;
-		}
+		}//while
+		
 		}
 
 	}
