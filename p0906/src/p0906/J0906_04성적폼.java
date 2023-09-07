@@ -2,7 +2,7 @@ package p0906;
 
 import java.util.Scanner;
 
-public class J0906_04 {
+public class J0906_04성적폼 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
