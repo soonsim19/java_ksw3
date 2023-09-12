@@ -7,9 +7,10 @@ public class Circle extends Shape {
   Circle(){
 	  this(new Point(0,0),100,"원형");
   }
-  Circle(Point center, int r){
+  Circle(Point center, int r, String typeName){
 	  this.center = center;
 	  this.r =r;
+	  this.typeName= typeName;
   }
   
 }

@@ -42,7 +42,7 @@ public class J0905_16 {
 			// 입력한 숫자 출력
 		int i = 0;
 		for (i = 0; i < count + 1; i++){
-			if(i=0) {
+			if(i==0) {
 				System.out.println(arrNum[i]);
 				continue;
 			}

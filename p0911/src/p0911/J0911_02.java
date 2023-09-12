@@ -17,7 +17,7 @@ public class J0911_02 {
        Card c1 = new Card();//객체 손온_ 참조변수명.변수명
        c1.kind ="heart";
        c1.number =1;
-       System.out.printf("kind : %s,number :%d\");
+       System.out.printf("kind : %s,number :%d\n");
        
        
        String kind  = "heart";

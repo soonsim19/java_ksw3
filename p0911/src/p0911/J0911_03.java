@@ -12,8 +12,8 @@ public class J0911_03 {
 			c[i].cardPrint();
 		}
 System.out.println( "카드 숫자 합");
-   int result = J0911_05.add(c[0].number,c[5].number);
-   System.out.println(result);
+   //int result = J0911_05.add(c[0].number,c[5].number);
+   //System.out.println(result);
 	
 	}
 }

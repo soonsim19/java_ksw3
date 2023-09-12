@@ -43,5 +43,5 @@ public class J0905_06 {
 		
 		//for(int i=10; i>=0; i--)
 	}
-
+	}
 }
