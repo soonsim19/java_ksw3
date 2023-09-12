@@ -7,7 +7,7 @@ public class J0912_03 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		StuScore2 [] s2= new StuScore2[3];
-		String[] score2 = new int[3];
+		String[] score2 = new [3];
 		String[] subject = {"국어","영어","수학"};
 		int stuNo=0;
 		String name="";
