@@ -9,7 +9,7 @@ public class Audio extends Product {
 		
 	}
 	
-	Audio( String pName, int price, int bonusPoint,String speakePower){
+	Audio( String pName, int price, int bonusPoint,String speakerPower){
 		this.pName =pName;
 		this.price= price;
 		this.bonusPoint=bonusPoint;

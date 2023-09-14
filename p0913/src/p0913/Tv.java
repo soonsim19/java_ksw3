@@ -1,10 +1,10 @@
 package p0913;
 
 public class Tv extends Product{
-     int size;
+     String size;
      
      Tv(){
-    	 this("삼성70",1000000,10000,70);
+    	 this("삼성70",1000000,10000,"70");
      }
      
      Tv(String pName,int price,int bonusPoint,String size){
