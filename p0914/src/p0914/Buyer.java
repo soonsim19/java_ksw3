@@ -19,10 +19,18 @@ public class Buyer {
 	
 	
 	
-	void buy(Product p) {
+	int buy(Product p) {
+		//
+		if(money>p.price) {
+			System.out.println("잔액이 부족하여 구매 불가");
+			System.out.println();
+			return 0;//구매 실패
+		}
+			
 		money-=p.price;
 		bonusPoint +=p.bonusPoint;
         list.add(p);
+        return 1;//구매 성공
         
 	}
 
